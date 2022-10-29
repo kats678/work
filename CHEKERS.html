@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2.dotted {
+            /*border-style:dashed;*/
+            border-style:double;
+            border-width: 45px;
+           
+            border-color: #00aeef;
+        }
+    
+        h2.checking {
+            border-style:solid;
+            border-width: 45px;
+           
+            border-color: #00aeef;
+    
+    
+    
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <img src="../Videos/htmlcode/images/R48f91cccb16557591c48b443e0e84745.jpg">
+    <p id="demo"></p>
+
+    <script>
+    /*
+    for (let i = 0; i < cars.length; i++) {
+      text += cars[i] + "<br>";
+    }*/2
+    let person = prompt("Congartulations you have won £100000000, please enter your name,", "Alan");
+    
+    
+    
+    
+    let text = "";
+    let vara="You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, v, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn  -spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, v, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed ";
+    
+    let arr = vara.split(' ');
+    let i = 0;
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+    const vals=[ arr, arr, arr, arr,arr, arr, arr, arr, arr, arr, arr, arr, arr, arr,arr,arr,arr,arr,arr,arr,arr,arr,arr];
+    /*
+    for (let i = 0; i<1000; i++) {
+    
+      text += vals[i] + "<br>";
+      
+    }*/
+    
+    for (;vals[i];) {
+        if (person != null) {
+        
+     var spans= "Hello " + person + "! How are you today?";
+    }
+    
+        if (vals[0] === vals[1]) {
+          var outcome = "if block";
+    } else {
+          var outcome = "else block";
+         var  neww=vals.push(cars);
+    }
+    /*const checks=vals.remove()*/
+    outcome;
+    neww;
+      text += vals[i] + "<br>" +outcome + neww +spans;
+      i++;
+    }
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    
+    
+    
+    
+    
+    <p id="demo10"></p>
+    
+    <script>
+    /*
+    for (let i = 0; i < cars.length; i++) {
+      text += cars[i] + "<br>";
+    }*/2
+    let persons = prompt("Congartulations you have won £100000000, please enter your age,", "23");
+    
+    
+    
+    
+    let texts = "";
+    let varas="You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, v, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn  -spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed,You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed, v, You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammedYou-have-benn-spammedYou-have-benn-spammedvYou-have-benn-spammed You-have-benn-spammed You-have-benn-spammed You-have-benn-spammed ";
+    
+    let arrs = vara.split(' ');
+    let j = 0;
+    const carss = ["BMW", "Volvo", "Saab", "Ford"];
+    const valss=[ arrs, arrs, arrs, arrs,arrs, arrs, arrs, arrs, arrs, arrs, arrs, arrs, arrs, arrs,arrs,arrs,arrs,arrs,arrs,arrs,arrs,arrs,arrs];
+    /*
+    for (let i = 0; i<1000; i++) {
+    
+      text += vals[i] + "<br>";
+      
+    }*/
+    
+    for (;valss[j];) {
+        if (persons != null) {
+        
+     var spanss= "Hello " + person + "! How are you today?";
+    }
+    
+        if (valss[0] === valss[1]) {
+          var outcomes = "if block";
+    } else {
+          var outcomes = "else block";
+         var  newws=valss.push(carss);
+    }
+    /*const checks=vals.remove()*/
+    outcomes;
+    newws;
+      text += valss[j] + "<br>" +outcomes + newws +spanss;
+      i++;
+    }
+    
+    document.getElementById("demo10").innerHTML = texts;
+    
+    </script>
+
+
+
+<img src="../Videos/htmlcode/images/R48f91cccb16557591c48b443e0e84745.jpg">
+<div>
+
+<h2 class="dotted" id="demo8"> ACCOUNTS</h2>
+
+</div>
+<script>
+/*
+let checkerst=prompt("Do you want to check your balance","yes/no");
+
+
+if(checkerst>2345){
+
+    //let verifying=prompt("please enter amount you would like to add");
+    /*
+
+    let valuessss=[123456,78967,789667,7899];
+    valuessss.push(checkerst);
+    const sum=valuessss.reduce((a,b) => a+b);
+    let goj=[sum];
+
+    let hok=[23456,78967,6789,890789];
+    let hoks=["£23456","£78967","£6789","£890789"];
+    hoks.push( "£" +checkerst);
+    hok.push(checkerst);
+
+    var amountzzz="Total amount in account is " +hok +" " + hoks +goj;
+    */
+   // var amountzz="Total amount in account is " + "£" +Checkerst;
+/*
+
+    documnent.getElementById("demo8").innerHTML=checkerst;
+}
+else
+*/
+</script>
+
+
+<script>
+let check_string=prompt("Do you want to Add assets to your account,","£23000");
+
+  
+  // Creating variable to store the sum
+ 
+
+  // Running the for loop
+  
+
+  //document.write("Sum is " + sum) // Prints: 44
+
+if (check_string> 2300){
+    let hok=[23456,78967,6789,890789];
+    hok.push(check_string);
+
+    const arryyyy = [1,2,3,4,5];
+    const sum = hok.reduce((a,b) => a+b);
+
+   // var numbersss="Sorry amount does not correlate "+check_string +hok +"£" +sum;
+
+    var Total_amount="THE TOTAL AMOUNT OF YOUR ACCOUNT IS=" +"£" +sum
+    let pok=[sum];
+    pok.pop(sum);
+
+    pok.push("You have violated illicit transactions been removed");
+
+    
+
+
+
+    //var numbers="Sorry amount does not correlate "+check_string;
+    
+
+//let verify=prompt(numbers);
+//document.getElementById("demo11").innerHTML = numbersss;
+document.getElementById("demo8").innerHTML = Total_amount +" " + pok;
+
+
+
+
+
+
+//let verifies=prompt("The amount does not corelatie plase enter gain," ,"£2344");
+//var chfg=verifies;
+}
+</script>
+
+
+<h2 id="demo890" class="checking">ACCOUNTS TRANSACTION</h2>
+<script>
+    let check_stringss=prompt("Do you want to Add assets to your account,","£23000");
+    
+      
+      // Creating variable to store the sum
+     
+    
+      // Running the for loop
+      
+    
+      //document.write("Sum is " + sum) // Prints: 44
+    
+    if (check_stringss> 2300){
+        let hokss=[23456,78967,6789,890789];
+        hokss.push(check_stringss);
+
+      //  let boxss=["£3456","£78967","£6789","£890789"];
+    
+        const arryyyyy = [1,2,3,4,5];
+      // const sumz = hokss.reduce((c,d) => c+d);
+        const sum = hokss.reduce((a,b) => a+b);
+
+    
+       // var numbersss="Sorry amount does not correlate "+check_string +hok +"£" +sum;
+    
+        var Total_amountss="THE TOTAL AMOUNT OF YOUR ACCOUNT IS=" +"£" + hokss;
+      //  let poks=[sum];
+      //  poks.pop(sum);
+    
+      //  pokss.push("You have violated illicit transactions been removed");
+    
+        
+    
+    
+    
+        //var numbers="Sorry amount does not correlate "+check_string;
+        
+    
+    //let verify=prompt(numbers);
+    //document.getElementById("demo11").innerHTML = numbersss;
+    document.getElementById("demo890").innerHTML = Total_amountss +" " + hokss +"£"+ sum;
+    
+    
+    
+    
+    
+    
+    //let verifies=prompt("The amount does not corelatie plase enter gain," ,"£2344");
+    //var chfg=verifies;
+    }
+    </script>
+    
+    
+    
+
+</body>
+</html>
